@@ -1,0 +1,21 @@
+{
+  "name": "sig-apps",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sekitar — SIG UMKM Pekanbaru",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "etl": "python tools/etl.py"
+  },
+  "dependencies": {
+    "ol": "^10.6.1"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1",
+    "vite": "^8.3.4"
+  }
+}

@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Sekitar — Temukan usaha lokal di sekitarmu</title>
+    <meta
+      name="description"
+      content="Sekitar memetakan 30 UMKM di Pekanbaru. Cari kuliner, jasa, toko, dan sembako terdekat lewat peta yang mudah dijelajahi."
+    />
+    <meta name="theme-color" content="#FAF7F1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sekitar — Usaha lokal di sekitarmu" />
+    <meta
+      property="og:description"
+      content="Jelajahi 30 UMKM Pekanbaru di peta: kuliner, jasa, toko, sembako, dan isi ulang galon."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-view="explore">
+    <a class="skip-link" href="#panelScroll">Lewati ke daftar usaha</a>
+
+    <header class="topbar">
+      <a class="brand" href="?view=explore" data-nav="explore" aria-label="Sekitar, ke halaman jelajah">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 21s7-7.4 7-12a7 7 0 1 0-14 0c0 4.6 7 12 7 12Z" fill="currentColor" />
+            <circle cx="12" cy="9" r="2.6" fill="#F2A63B" />
+          </svg>
+        </span>
+        <span class="brand__word">sekitar<span class="brand__dot">.</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Navigasi utama">
+        <a class="nav__link" href="?view=explore" data-nav="explore">Jelajah</a>
+        <a class="nav__link" href="?view=insight" data-nav="insight">Insight</a>
+        <a class="nav__link" href="?view=tentang" data-nav="tentang">Tentang</a>
+      </nav>
+
+      <div class="topbar__meta">
+        <span class="topbar__place">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 21s7-7.4 7-12a7 7 0 1 0-14 0c0 4.6 7 12 7 12Z" stroke="currentColor" stroke-width="1.8" />
+            <circle cx="12" cy="9" r="2.4" stroke="currentColor" stroke-width="1.8" />
+          </svg>
+          Pekanbaru, Riau
+        </span>
+        <a class="topbar__cta" href="?view=insight" aria-label="Lihat insight 30 UMKM">
+          <span id="headerCount">30</span> UMKM
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="explore" id="explore" aria-label="Jelajah UMKM">
+        <aside class="panel is-half" id="panel" aria-label="Panel pencarian usaha">
+          <button class="sheet-handle" id="sheetHandle" type="button" aria-label="Perbesar atau perkecil panel">
+            <span aria-hidden="true"></span>
+          </button>
+
+          <div class="sheet-summary">
+            <div>
+              <strong id="sheetCount">30 usaha</strong>
+              <span id="sheetSub">di Pekanbaru</span>
+            </div>
+            <button class="btn btn--soft btn--sm" id="sheetFilterBtn" type="button">
+              <span class="icon" data-icon="sliders" aria-hidden="true"></span> Filter
+            </button>
+          </div>
+
+          <div class="panel__scroll" id="panelScroll">
+            <section class="intro" aria-labelledby="introTitle">
+              <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>SIG UMKM Pekanbaru</p>
+              <h1 id="introTitle">Temukan usaha lokal <em>di sekitarmu.</em></h1>
+              <p class="intro__sub" id="introSub">30 usaha di 7 kelurahan, siap dijelajahi.</p>
+            </section>
+
+            <div class="search" role="search">
+              <span class="icon search__icon" data-icon="search" aria-hidden="true"></span>
+              <input
+                id="searchInput"
+                type="search"
+                inputmode="search"
+                autocomplete="off"
+                placeholder="Cari nama usaha, kategori, kelurahan…"
+                aria-label="Cari usaha"
+              />
+              <button class="search__clear" id="searchClear" type="button" aria-label="Hapus pencarian" hidden>
+                <span class="icon" data-icon="x" aria-hidden="true"></span>
+              </button>
+              <kbd class="search__kbd" aria-hidden="true">⌘K</kbd>
+            </div>
+
+            <div class="loc-row">
+              <button class="btn btn--soft" id="locateBtn" type="button">
+                <span class="icon" data-icon="crosshair" aria-hidden="true"></span>
+                <span id="locateLabel">Lokasi saya</span>
+              </button>
+              <label class="select select--radius">
+                <span class="sr-only">Radius pencarian</span>
+                <select id="radiusSelect" aria-label="Radius pencarian">
+                  <option value="0">Semua jarak</option>
+                  <option value="250">250 m</option>
+                  <option value="500">500 m</option>
+                  <option value="1000">1 km</option>
+                  <option value="2000">2 km</option>
+                  <option value="5000">5 km</option>
+                </select>
+              </label>
+            </div>
+            <p class="loc-note" id="locNote">Jarak dihitung dari pusat Pekanbaru.</p>
+
+            <div class="chips" id="categoryChips" role="group" aria-label="Kategori usaha"></div>
+
+            <div class="toolbar">
+              <button class="btn btn--outline" id="filterBtn" type="button" aria-haspopup="dialog">
+                <span class="icon" data-icon="sliders" aria-hidden="true"></span>
+                Filter
+                <span class="btn__count" id="filterCount" hidden>0</span>
+              </button>
+              <label class="select select--sort">
+                <span class="icon" data-icon="arrow-up-down" aria-hidden="true"></span>
+                <span class="sr-only">Urutkan hasil</span>
+                <select id="sortSelect" aria-label="Urutkan hasil">
+                  <option value="terdekat">Terdekat</option>
+                  <option value="nama">Nama A–Z</option>
+                  <option value="omzet">Omzet tertinggi</option>
+                  <option value="lama">Paling lama usaha</option>
+                  <option value="terbaru">Terbaru dicatat</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="active-filters" id="activeFilters" aria-label="Filter aktif"></div>
+
+            <div class="results-head">
+              <p class="results-count" id="resultCount" aria-live="polite">Memuat usaha…</p>
+              <button class="link" id="resetFilters" type="button">Reset</button>
+            </div>
+
+            <div class="cards" id="resultList" aria-label="Daftar usaha"></div>
+          </div>
+        </aside>
+
+        <div class="map-shell" id="mapShell">
+          <div id="map" role="application" aria-label="Peta sebaran UMKM Pekanbaru. Gunakan daftar di panel untuk navigasi alternatif."></div>
+          <div class="map-tint" aria-hidden="true"></div>
+          <div class="map-loading" id="mapLoading">
+            <span class="spinner" aria-hidden="true"></span>
+            <span>Menyiapkan peta…</span>
+          </div>
+
+          <div class="map-ui">
+            <div class="map-top">
+              <div class="map-badge">
+                <span class="map-badge__dot" aria-hidden="true"></span>
+                <span>Peta UMKM</span>
+                <span class="map-badge__count" id="mapCount">30 titik</span>
+              </div>
+              <div class="basemap-toggle" role="group" aria-label="Peta dasar">
+                <button type="button" data-basemap="light" aria-pressed="true">Terang</button>
+                <button type="button" data-basemap="satellite" aria-pressed="false">Satelit</button>
+              </div>
+            </div>
+
+            <div class="map-controls">
+              <div class="ctl-group">
+                <button class="ctl" id="zoomIn" type="button" aria-label="Perbesar peta">
+                  <span class="icon" data-icon="plus" aria-hidden="true"></span>
+                </button>
+                <button class="ctl" id="zoomOut" type="button" aria-label="Perkecil peta">
+                  <span class="icon" data-icon="minus" aria-hidden="true"></span>
+                </button>
+              </div>
+              <button class="ctl" id="mapLocate" type="button" aria-label="Temukan lokasi saya">
+                <span class="icon" data-icon="crosshair" aria-hidden="true"></span>
+              </button>
+              <button class="ctl" id="mapFullscreen" type="button" aria-label="Layar penuh">
+                <span class="icon" data-icon="maximize" aria-hidden="true"></span>
+              </button>
+              <div class="layer-wrap">
+                <button class="ctl" id="layerBtn" type="button" aria-label="Lapisan peta" aria-expanded="false">
+                  <span class="icon" data-icon="layers" aria-hidden="true"></span>
+                </button>
+                <div class="layer-menu" id="layerMenu" hidden>
+                  <label class="check">
+                    <input type="checkbox" id="toggleBoundary" checked />
+                    <span>Batas kelurahan</span>
+                  </label>
+                  <label class="check">
+                    <input type="checkbox" id="toggleClusters" checked />
+                    <span>Kelompokkan titik</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="legend" id="legend">
+              <button class="legend__toggle" id="legendToggle" type="button" aria-expanded="true">
+                <span>Legenda</span>
+                <span class="icon" data-icon="chevron-down" aria-hidden="true"></span>
+              </button>
+              <div class="legend__body" id="legendBody"></div>
+            </div>
+          </div>
+
+          <div id="tooltip" class="map-tooltip" role="status" aria-live="off"></div>
+          <div id="chooser" class="map-chooser" hidden></div>
+        </div>
+      </section>
+
+      <section class="page" id="insight" hidden aria-labelledby="insightTitle"></section>
+      <section class="page" id="tentang" hidden aria-labelledby="aboutTitle"></section>
+    </main>
+
+    <aside class="detail" id="detail" role="dialog" aria-labelledby="detailTitle" aria-hidden="true"></aside>
+
+    <dialog class="dialog" id="filterDialog" aria-labelledby="filterTitle">
+      <form class="sheet" id="filterForm">
+        <header class="sheet__head">
+          <div>
+            <p class="eyebrow">Saring</p>
+            <h2 id="filterTitle">Filter usaha</h2>
+          </div>
+          <button class="icon-btn" id="filterClose" type="button" aria-label="Tutup filter">
+            <span class="icon" data-icon="x" aria-hidden="true"></span>
+          </button>
+        </header>
+
+        <div class="sheet__body">
+          <fieldset class="field">
+            <legend>Jarak dari titik awal</legend>
+            <div class="pill-group" id="radiusPills">
+              <label><input type="radio" name="filterRadius" value="0" /><span>Semua</span></label>
+              <label><input type="radio" name="filterRadius" value="250" /><span>250 m</span></label>
+              <label><input type="radio" name="filterRadius" value="500" /><span>500 m</span></label>
+              <label><input type="radio" name="filterRadius" value="1000" /><span>1 km</span></label>
+              <label><input type="radio" name="filterRadius" value="2000" /><span>2 km</span></label>
+              <label><input type="radio" name="filterRadius" value="5000" /><span>5 km</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend for="filterTier">Skala omzet / bulan</legend>
+            <select class="input" id="filterTier">
+              <option value="semua">Semua skala</option>
+              <option value="t1">Di bawah Rp2 jt</option>
+              <option value="t2">Rp2–5 jt</option>
+              <option value="t3">Rp5–15 jt</option>
+              <option value="t4">Di atas Rp15 jt</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend for="filterKelurahan">Kelurahan</legend>
+            <select class="input" id="filterKelurahan">
+              <option value="semua">Semua kelurahan</option>
+            </select>
+          </fieldset>
+
+          <label class="switch">
+            <span>
+              <strong>Hanya yang di marketplace</strong>
+              <small>Usaha yang sudah terhubung ke marketplace digital.</small>
+            </span>
+            <input type="checkbox" id="filterMarketplace" />
+            <span class="switch__track" aria-hidden="true"><span></span></span>
+          </label>
+        </div>
+
+        <footer class="sheet__foot">
+          <button class="btn btn--ghost" id="filterReset" type="button">Reset</button>
+          <button class="btn btn--primary" id="filterApply" type="button">Terapkan filter</button>
+        </footer>
+      </form>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

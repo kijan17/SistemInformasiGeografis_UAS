@@ -1,0 +1,755 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42560698500006, 0.56534305000002405, 0, null]
+      },
+      "properties": {
+        "FID": 0,
+        "OID_": 0,
+        "Name": "Ampera Ajho",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-28 07:48:19.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42568782100005, 0.56518176600002334, 0, null]
+      },
+      "properties": {
+        "FID": 1,
+        "OID_": 0,
+        "Name": "Harvia H2O",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-05 06:56:27.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42835673300004, 0.5035760740000228, 0, null]
+      },
+      "properties": {
+        "FID": 2,
+        "OID_": 0,
+        "Name": "Kira Shoes & Bag Care",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-02 06:45:11.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43340042200003, 0.55945797100002892, 0, null]
+      },
+      "properties": {
+        "FID": 3,
+        "OID_": 0,
+        "Name": "Nasi Goreng 77",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-30 13:21:47.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44771328800005, 0.56994461600004342, 0, null]
+      },
+      "properties": {
+        "FID": 4,
+        "OID_": 0,
+        "Name": "Pecel Lele Arto Moro",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-28 12:37:59.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44450922300007, 0.50466127500004632, 0, null]
+      },
+      "properties": {
+        "FID": 5,
+        "OID_": 0,
+        "Name": "Richs",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-02 07:47:55.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.46395149100005, 0.49633997200004387, 0, null]
+      },
+      "properties": {
+        "FID": 6,
+        "OID_": 0,
+        "Name": "Sate Ayam & Kambing Surabaya Simpang Rindang",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-26 13:05:28.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41078485900005, 0.45765671700002031, 0, null]
+      },
+      "properties": {
+        "FID": 0,
+        "OID_": 0,
+        "Name": "Cahaya Warna",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 11:25:22.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42852882400007, 0.47649320400006445, 0, null]
+      },
+      "properties": {
+        "FID": 1,
+        "OID_": 0,
+        "Name": "Daddy's Burgers",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 11:22:37.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41219075900005, 0.45604596300006506, 0, null]
+      },
+      "properties": {
+        "FID": 2,
+        "OID_": 0,
+        "Name": "Et Loundry",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 05:06:50.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.39173071400006, 0.45197074300006079, 0, null]
+      },
+      "properties": {
+        "FID": 3,
+        "OID_": 0,
+        "Name": "Faiz Jaya",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 11:38:27.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42859808900005, 0.47651019800002814, 0, null]
+      },
+      "properties": {
+        "FID": 4,
+        "OID_": 0,
+        "Name": "Martabak Sarang Tawon",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 11:24:07.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41955500000006, 0.46555900000004158, 0, null]
+      },
+      "properties": {
+        "FID": 5,
+        "OID_": 0,
+        "Name": "Penjual Ikan",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 04:10:30.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42856800000004, 0.47652944200007141, 0, null]
+      },
+      "properties": {
+        "FID": 6,
+        "OID_": 0,
+        "Name": "Susu Murni Rakyat",
+        "FolderPath": "Document/Lapisan 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 11:20:27.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42646585600005, 0.5690545470000643, 0, null]
+      },
+      "properties": {
+        "FID": 0,
+        "OID_": 0,
+        "Name": "Dimsum",
+        "FolderPath": "Document/Layer 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-30 07:48:28.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.45077178800005, 0.56315518300004896, 0, null]
+      },
+      "properties": {
+        "FID": 1,
+        "OID_": 0,
+        "Name": "Donat susu",
+        "FolderPath": "Document/Layer 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-30 07:34:15.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42677792700005, 0.56695902300003809, 0, null]
+      },
+      "properties": {
+        "FID": 2,
+        "OID_": 0,
+        "Name": "Ianzy ayam geprek",
+        "FolderPath": "Document/Layer 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-30 07:18:25.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42545547900005, 0.56598529000007147, 0, null]
+      },
+      "properties": {
+        "FID": 3,
+        "OID_": 0,
+        "Name": "Laundry",
+        "FolderPath": "Document/Layer 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-30 07:11:45.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42414486600006, 0.5689442900000472, 0, null]
+      },
+      "properties": {
+        "FID": 4,
+        "OID_": 0,
+        "Name": "Sembako ceisya",
+        "FolderPath": "Document/Layer 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-30 06:43:49.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41785124500007, 0.57677399000004925, 0, null]
+      },
+      "properties": {
+        "FID": 5,
+        "OID_": 0,
+        "Name": "Sembako hijau",
+        "FolderPath": "Document/Layer 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-30 06:58:28.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42343775900008, 0.5690731690000348, 0, null]
+      },
+      "properties": {
+        "FID": 6,
+        "OID_": 0,
+        "Name": "Toko buah baif",
+        "FolderPath": "Document/Layer 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-03 06:16:59.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42680817300004, 0.57072192700002233, 0, null]
+      },
+      "properties": {
+        "FID": 7,
+        "OID_": 0,
+        "Name": "Wahyu kantin",
+        "FolderPath": "Document/Layer 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-30 02:55:55.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42681121800007, 0.57072192400005406, 0, null]
+      },
+      "properties": {
+        "FID": 8,
+        "OID_": 0,
+        "Name": "Warung lapau uda",
+        "FolderPath": "Document/Layer 1",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-09-30 03:03:51.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.47465855900003, 0.52082063000005974, 0, null]
+      },
+      "properties": {
+        "FID": 0,
+        "OID_": 0,
+        "Name": "Malay Mini Market",
+        "FolderPath": "Document/Tes",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 03:28:45.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.46822242100006, 0.52486818800002766, 0, null]
+      },
+      "properties": {
+        "FID": 1,
+        "OID_": 0,
+        "Name": "MY CAT SHOP",
+        "FolderPath": "Document/Tes",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 03:42:52.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44803357900008, 0.53581068200003301, 0, null]
+      },
+      "properties": {
+        "FID": 2,
+        "OID_": 0,
+        "Name": "Suzanna Elektronik",
+        "FolderPath": "Document/Tes",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 03:51:41.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.48302874900008, 0.51895983800005752, 0, null]
+      },
+      "properties": {
+        "FID": 3,
+        "OID_": 0,
+        "Name": "Toko Buku Media Sukses",
+        "FolderPath": "Document/Tes",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 03:32:27.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.47958019400005, 0.52418954500006976, 0, null]
+      },
+      "properties": {
+        "FID": 4,
+        "OID_": 0,
+        "Name": "Toko Buku Parker",
+        "FolderPath": "Document/Tes",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 03:36:33.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.45903401700008, 0.52820449700004701, 0, null]
+      },
+      "properties": {
+        "FID": 5,
+        "OID_": 0,
+        "Name": "Vad Hot Burger",
+        "FolderPath": "Document/Tes",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 03:46:03.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.48093931100004, 0.52159304200006318, 0, null]
+      },
+      "properties": {
+        "FID": 6,
+        "OID_": 0,
+        "Name": "Win Win Cake & Bakery",
+        "FolderPath": "Document/Tes",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "TimeSpan": 0,
+        "TimeStamp": -1,
+        "BeginTime": "2026-10-04 03:34:32.0",
+        "EndTime": " ",
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    }
+  ]
+}

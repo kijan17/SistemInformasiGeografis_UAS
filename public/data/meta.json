@@ -1,0 +1,63 @@
+{
+  "judul": "SIG UMKM Pekanbaru",
+  "sumber": "Survei lapangan UMKM (GIS.xlsx)",
+  "dibuatPada": "2026-11-25",
+  "jumlah": 30,
+  "kategori": {
+    "kuliner": {
+      "label": "Kuliner",
+      "icon": "utensils",
+      "jumlah": 14
+    },
+    "retail": {
+      "label": "Toko & Retail",
+      "icon": "shopping-bag",
+      "jumlah": 8
+    },
+    "jasa": {
+      "label": "Jasa",
+      "icon": "wrench",
+      "jumlah": 5
+    },
+    "sembako": {
+      "label": "Sembako",
+      "icon": "wheat",
+      "jumlah": 2
+    },
+    "galon": {
+      "label": "Isi Ulang Galon",
+      "icon": "droplets",
+      "jumlah": 1
+    }
+  },
+  "kecamatan": {
+    "Tampan": 12,
+    "Rumbai": 12,
+    "Sukajadi": 5
+  },
+  "kelurahan": {
+    "Umban Sari": 10,
+    "Simpang Baru": 6,
+    "Pekanbaru Luar Kota/Tampan": 4,
+    "Harjosari": 3,
+    "Meranti Pandak": 2,
+    "Labuh Baru": 2,
+    "Kedungsari": 2
+  },
+  "marketplace": 7,
+  "digitalisasi": 28,
+  "medianOmzet": 3500000,
+  "totalOmzet": 218800000,
+  "bbox": [
+    101.391731,
+    0.451971,
+    101.483029,
+    0.576774
+  ],
+  "titikGanda": 0,
+  "catatan": [
+    "Omzet ditampilkan sebagai tier; angka persis bersifat opsional di panel detail.",
+    "Tidak tersedia jam buka, rating, telepon, atau foto usaha pada dataset.",
+    "1 titik berada di luar batas kelurahan Pekanbaru dan ditandai di antarmuka."
+  ]
+}

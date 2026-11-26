@@ -1,0 +1,136 @@
+/* ==========================================================================
+   Sekitar — design tokens
+   "Warm local cartography": kertas krem, hijau pandan, marigold, terakota.
+   ========================================================================== */
+
+:root {
+  /* Base */
+  --bg: #faf7f1;
+  --bg-deep: #f4efe5;
+  --surface: #ffffff;
+  --surface-2: #f3eee4;
+  --surface-3: #ece4d5;
+
+  --ink: #16211b;
+  --ink-2: #3b4a42;
+  --muted: #6f7c74;
+  --faint: #98a29b;
+
+  --line: #e6dfd2;
+  --line-strong: #d6ccba;
+
+  /* Brand */
+  --brand: #12594a;
+  --brand-strong: #0b4438;
+  --brand-soft: #e3f1ea;
+  --brand-tint: #f0f7f3;
+  --accent: #f2a63b;
+  --accent-soft: #fdf1da;
+  --accent-ink: #4a2c00;
+
+  --danger: #c6473a;
+  --danger-soft: #fbe9e6;
+  --success: #1f8a5b;
+
+  /* Categories */
+  --cat-kuliner: #d9583f;
+  --cat-kuliner-soft: #fbeae5;
+  --cat-retail: #2f6fa6;
+  --cat-retail-soft: #e9f1f8;
+  --cat-jasa: #6c5bd4;
+  --cat-jasa-soft: #efecfc;
+  --cat-sembako: #6e8a2c;
+  --cat-sembako-soft: #f0f4e3;
+  --cat-galon: #0e8c86;
+  --cat-galon-soft: #e4f5f3;
+
+  /* Typography */
+  --font: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --fs-2xs: 10px;
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-base: 13.5px;
+  --fs-md: 15px;
+  --fs-lg: 17px;
+  --fs-xl: 21px;
+  --fs-2xl: 27px;
+  --fs-3xl: 34px;
+  --fs-4xl: 46px;
+
+  /* Space */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-7: 30px;
+  --sp-8: 40px;
+  --sp-9: 56px;
+  --sp-10: 72px;
+
+  /* Radius */
+  --r-xs: 8px;
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 18px;
+  --r-xl: 24px;
+  --r-pill: 999px;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgba(22, 33, 27, 0.06);
+  --shadow-md: 0 10px 30px -12px rgba(22, 33, 27, 0.18);
+  --shadow-lg: 0 30px 70px -24px rgba(22, 33, 27, 0.3);
+  --shadow-sheet: 0 -18px 50px -20px rgba(22, 33, 27, 0.24);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 0.8, 0.24, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --t-fast: 140ms;
+  --t-base: 200ms;
+  --t-slow: 320ms;
+
+  /* Layout */
+  --header-h: 64px;
+  --panel-w: 408px;
+  --detail-w: 430px;
+
+  /* Computed category helper */
+  --cat: var(--brand);
+  --cat-soft: var(--brand-soft);
+}
+
+[data-cat="kuliner"] {
+  --cat: var(--cat-kuliner);
+  --cat-soft: var(--cat-kuliner-soft);
+}
+[data-cat="retail"] {
+  --cat: var(--cat-retail);
+  --cat-soft: var(--cat-retail-soft);
+}
+[data-cat="jasa"] {
+  --cat: var(--cat-jasa);
+  --cat-soft: var(--cat-jasa-soft);
+}
+[data-cat="sembako"] {
+  --cat: var(--cat-sembako);
+  --cat-soft: var(--cat-sembako-soft);
+}
+[data-cat="galon"] {
+  --cat: var(--cat-galon);
+  --cat-soft: var(--cat-galon-soft);
+}
+
+@media (max-width: 1180px) {
+  :root {
+    --panel-w: 372px;
+    --detail-w: 400px;
+  }
+}
+
+@media (max-width: 880px) {
+  :root {
+    --header-h: 58px;
+  }
+}
